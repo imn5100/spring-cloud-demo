@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: /Users/imn5100/code/privateCode/spring-boot-cloud-test/config
+  profiles:
+    active: native
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/imn5100/spring-cloud-demo
+#          search-paths: config
+#          username:
+#          password:
+
+server:
+  port: 8100
+
+
+

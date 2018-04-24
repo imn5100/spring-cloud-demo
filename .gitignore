@@ -1,0 +1,22 @@
+#target ignore
+/target
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*.tar.gz
+*.zip
+*.tar
+*.war
+*.torrent
+*.iml
+/resource
+/.idea
+#eclipse ignore
+.settings/
+.metadata/
+.project
+.classpath
+.checkstyle
+**/.idea
